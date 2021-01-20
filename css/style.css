@@ -436,7 +436,7 @@ input[type="checkbox"] {
 
 .addo-footer p {
     margin-bottom: 0;
-    color: #999;
+    color: #fff;
 }
 
 .addo-footer a {
@@ -565,7 +565,7 @@ input[type="checkbox"] {
 
 .addo-hero .flexslider .flex-control-nav li a.flex-active {
     cursor: pointer;
-    background: #101010;
+    background: #fff;
 }
 
 .addo-hero .flexslider .flex-direction-nav {
@@ -1012,7 +1012,7 @@ body.offcanvas .addo-nav-toggle {
 }
 
 .latest a .txt2 {
-    color: #888;
+    color: #fff;
     font-size: 13px;
     transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -1051,7 +1051,7 @@ body.offcanvas .addo-nav-toggle {
     -webkit-border-radius: 0px;
     text-decoration: none;
     font-size: 13px;
-    color: #888;
+    color: #fff;
     transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
