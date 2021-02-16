@@ -17,72 +17,12 @@
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <style> .myButton{ padding: 10px 20px; background-color: rgb(0, 0, 0); border: 0px; color: #fff; } .myButton:hover{ background-color: #28b870; border: 1px solid rgb(255, 255, 255); color: #fff; } </style>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
         <script src="js/respond.min.js"></script>
     <![endif]-->
     
-    <style>
-        .glow-on-hover {
-            width: 220px;
-            height: 50px;
-            border: none;
-            outline: none;
-            color: #fff;
-            background: #111;
-            cursor: pointer;
-            position: relative;
-            z-index: 0;
-            border-radius: 10px;
-        }
-        
-        .glow-on-hover:before {
-            content: '';
-            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-            position: absolute;
-            top: -2px;
-            left:-2px;
-            background-size: 400%;
-            z-index: -1;
-            filter: blur(5px);
-            width: calc(100% + 4px);
-            height: calc(100% + 4px);
-            animation: glowing 20s linear infinite;
-            opacity: 0;
-            transition: opacity .3s ease-in-out;
-            border-radius: 10px;
-        }
-        
-        .glow-on-hover:active {
-            color: #000
-        }
-        
-        .glow-on-hover:active:after {
-            background: transparent;
-        }
-        
-        .glow-on-hover:hover:before {
-            opacity: 1;
-        }
-        
-        .glow-on-hover:after {
-            z-index: -1;
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: #111;
-            left: 0;
-            top: 0;
-            border-radius: 10px;
-        }
-        
-        @keyframes glowing {
-            0% { background-position: 0 0; }
-            50% { background-position: 400% 0; }
-            100% { background-position: 0 0; }
-        }
-        </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="addo-page"> <a href="#" class="js-addo-nav-toggle addo-nav-toggle"><i></i></a>
@@ -106,14 +46,8 @@
             </nav>
             <!-- Sidebar Footer -->
             <div class="addo-footer">
-                <!-- <ul>
-                    <li><a href="#"><i class="ti-facebook font-14px white-icon"></i></a></li>
-                    <li><a href="#"><i class="ti-twitter-alt font-14px white-icon"></i></a></li>
-                    <li><a href="#"><i class="ti-instagram font-14px white-icon"></i></a></li>
-                    <li><a href="#"><i class="ti-linkedin font-14px white-icon"></i></a></li>
-                </ul> -->
                 <p>© 2021 U-No Active <br>
-                    by <a href="https://www.linkedin.com/public-profile/in/dorjzodovsuren-batjargal-1896b9119?challengeId=AQGa3EPOLdIQHwAAAXcfCAw1GouLRplhUvGx4F1LhDcOvE8rEhbNYnyXRfAMxB498W0d1A0mz9UwoA88K5bHdw-iMdQUKXhR9Q&submissionId=1bf75880-40e5-5b16-a4de-5b5e9f4e7c68">IBDZS</a>
+                    by <a href="http://dorjzodovsuren.com/" target="_blanket">IBDZS</a>
                 </p>
             </div>
         </aside>
@@ -133,13 +67,15 @@
                                             <div class="slider-text-inner">
                                                 <div class="desc">
                                                     <!-- <div class="image_wrap"> <img src="images/adam.jpg" alt=""> </div> -->
-                                                    <h1><b style="color:#f0a755;text-shadow:1px 1px 0px #fff";>ウーノ・アクティブが選ばれる</b><b style="color:#50d894">３つ</b><b style="color:#f0a755;text-shadow:1px 1px 0px #fff";";>のポイント</b></h1>
+                                                    <h1><b style="color:#f0a755;text-shadow:1px 1px 0px #fff";>ウーノ・アクティブは</b></h1>
                                                     <h2 class="cd-headline clip">
                                                         <span></span>
                                                         <span class="cd-words-wrapper">
-                                                          <b class="is-visible" style="color:#50d894">&nbsp;１。研修プログラム</b>
-                                                          <b style="color:#50d894">&nbsp;２。リピート率１００％の実績</b>
-                                                          <b style="color:#50d894">&nbsp;３。１５年以上の講師経験、現場・受講者</b>
+                                                                <b class="is-visible" style="color:#50d894">&nbsp;5. 組織の人材活性を全力でサポートします</b>
+                                                                <b style="color:#50d894">&nbsp;1. リピート率99％の信頼と実績</b>
+                                                                <b style="color:#50d894">&nbsp;2. ビジネス・コンサルティングします</b>
+                                                                <b style="color:#50d894">&nbsp;3. アジア諸国でのビジネスサポート</b>
+                                                                <b style="color:#50d894">&nbsp;4. 不動産投資・管理サポート</b>
                                                         </span>
                                                     </h2> </div>
                                                 <div class="arrow bounce">
@@ -187,7 +123,17 @@
                         <div class="row">
                             <div class="col-md-12"> <span class="heading-meta">What We Do</span>
                                 <h2 class="addo-heading animate-box" data-animate-effect="fadeInLeft"><b>サービス概要</b></h2> </div>
+                                <div class="col-md-10 animate-box" data-animate-effect="fadeInLeft">
+                                        <h2 class="cd-headline clip">
+                                            <span style="color:#28b870";>“知る・わかる・できる”</span><span style="color:#050505";>から</span><span style="color:#28b870";>“やり続ける”まで</span>
+                                        </h2>
+                                        <p></p>
+                                        <p>組織の<b style="color:#f6a74d";>「課題解決」</b>に向けて研修・講演・調査・分析を提供し、受講者を通してサポートします。
+                                            明確な<b style="color:#f6a74d";>目的に基づき知識・スキルの習得</b>、受講者が<b style="color:#f6a74d";>「実務で使用できる」</b>レベルへと促す<b style="color:#f6a74d";>演習を多用した</b>研修は定評があります。
+                                        </p>
+                                </div>
                         </div>
+                        <p><br></p>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="addo-feature animate-box" data-animate-effect="fadeInLeft">
@@ -232,8 +178,10 @@
                     </div>
                 </div>
             </div>
+            
             <!-- Portfolio Section -->
             <div id="portfolio" class="section">
+                
                 <div class="addo-projects">
                     <div class="container-fluid">
                         <div class="row">
@@ -243,189 +191,129 @@
                         <div class="row">
                             <!-- Higashitani Section -->
                             <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_higashitani.jpg" class="img-fluid" alt="">
-                                        <div class="desc">
-                                            <div class="con">
-                                                <h3 style="color:#f6a74d";>Yuka Higashitani</h3> 
-                                                    <span>
-                                                        <p style="color:#7ecea6">大学在学中よりテレビインタビュアーを務め、卒業後は航空会社に入社、企画部、監査部に携わる。その後、経営コンサルタント会社専任講師として年間200日以上の研修を15年担当する。論理的コミュニケーションを中心に、管理者層に対するマネジメント、若手社員の意識ギャップを捕らえた部下指導方法、営業戦略指導、コンプライアンス指導などを行っている。</p>
-                                                    </span> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <b>東谷 由香</b>
+
+
+                                    <a href="Higashitani.html">
+                                        <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_higashitani.jpg" class="img-fluid" alt=""></div>
+                                    </a>
+
+                                    <a href="Higashitani.html">
+                                        <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">東谷 由香</button>
+                                    </a>
+                                    <p>
                                     <p>大学在学中よりテレビインタビュアーを務め、卒業後は航空会社に入社、企画部、監査部に携わる。中央大学経済学部卒、中央大学大学院戦略経営研究科修了（ＭＢＡ）。</p>
+
+                                    <!-- A button for more infomation -->
 
                             </div>
                             <!-- 磯谷哲史 Section -->
                             <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/磯谷哲史.jpg" class="img-fluid" alt="">
-                                        <div class="desc">
-                                                <div class="con">
-                                                        <h3 style="color:#f6a74d";>磯谷 哲史</h3> 
-                                                            <span>
-                                                                <p style="color:#7ecea6">語学教育会社にてマネージャー職に従事した後、人材コンサルタント会社にて講師と人材育成研究を担当する。</p>
-                                                                <p style="color:#7ecea6">人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                            </span> 
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <b>磯谷 哲史</b>
+                                    <a href="磯谷哲史.html">
+                                        <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/磯谷哲史.jpg" class="img-fluid" alt=""></div>
+                                    </a>
+                                    <a href="磯谷哲史.html">
+                                        <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">磯谷 哲史</button>
+                                    <p></p>
                                     <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
                                 </a>
                             </div>
-                            <!-- 加藤純子 Section -->
+                            <!-- 加藤純子 Section DONE --> 
                             <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/加藤純子.jpg" class="img-fluid" alt="">
-                                        <div class="desc">
-                                                <div class="con">
-                                                        <h3 style="color:#f6a74d";>加藤 純子</h3> 
-                                                            <span>
-                                                                <p style="color:#7ecea6">語学教育会社にてマネージャー職に従事した後、人材コンサルタント会社にて講師と人材育成研究を担当する。</p>
-                                                                <p style="color:#7ecea6">人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                            </span> 
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <b>加藤 純子</b>
+                                    <a href="加藤純子.html">
+                                        <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/加藤純子.jpg" class="img-fluid" alt=""></div>
+                                    </a>
+                                    <a href="加藤純子.html">
+                                            <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">加藤 純子</button>
+                                    <p></p>
                                     <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
                                 </a>
                             </div>
                             <!-- Fukuda Section -->
                             <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_fukuda.jpg" class="img-fluid" alt="">
-                                        <div class="desc">
-                                                <div class="con">
-                                                        <h3 style="color:#f6a74d";>Makiko Fukuda</h3> 
-                                                            <span>
-                                                                <p style="color:#7ecea6">玩具メーカー直営店店長・社内トレーナー兼務、フリーナレーターを経て、人材コンサルタント会社専属講師として勤務。講師として15年以上の実績を持つ。</p>
-                                                            </span> 
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <b>福田 牧子</b>
+                                    <a href="pic_fukuda.html">
+                                        <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_fukuda.jpg" class="img-fluid" alt=""></div>
+                                    </a>
+                                    <a href="pic_fukuda.html">
+                                            <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">福田 牧子</button>
+                                    <p></p>
                                     <p>女性リーダー能力開発研修、職域拡大に伴うCDPの実践、メンター研修、コーチングを活かしたコミュニケーションスキル向上研修等を多数担当する。株式会社ザ･アール講師。東北学院大学卒。</p>
                                 </a>
                             </div>
-
-                            
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="member" class="section">
-                <div class="d-flex justify-content-center">
-                    <div class="addo-blog">
+
+            <div class="col-md-12 d-flex justify-content-center" style="padding:auto">
+                <button type="button" class="glow-on-hover" data-toggle="collapse" data-target="#members" style="background-color: #000000;border-radius: 12px;margin: 1px 1px;padding: 8px">他のメンバーを見る</button>
+            </div>
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                <div id="member" class="section">
+                        <div class="addo-blog">
                                 <div class="container">
-                                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#members">他のメンバーを見る</button>
-                                        <div id="members" class="collapse">
-                                                <div class="row">
-                                                    <!-- Otsuka Section -->
-                                                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                                            <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_otsuka.jpg" class="img-fluid" alt="">
-                                                                <div class="desc">
-                                                                        <div class="con">
-                                                                                <h3 style="color:#f6a74d";>Mariko Otsuka</h3> 
-                                                                                    <span>
-                                                                                        <p style="color:#7ecea6">航空会社国際客室乗務員として約8年勤務した後、人材コンサルタント会社専属講師として勤務。講義とワークを入れた実践的指導で年間150日以上研修を担当する。覆面調査においては、調査活動の実践、現場に即した問題点の抽出・問題点解決に向けた研修などの構築・提案を行う</p>
-                                                                                    </span> 
-                                                                        </div>
+                                    <div id="members" class="collapse">
+                                                    <div class="row">
+                                                        <!-- Otsuka Section -->
+                                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                                <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_otsuka.jpg" class="img-fluid" alt="">
                                                                 </div>
-                                                            </div>
-                                                            <b>大塚 真理子</b>
-                                                            <p>CDAの資格を保有、キャリアデザインフォーラムを立ち上げ、主に東海地区にてキャリア支援の活動を行う。株式会社ザ･アール講師。南山大学卒。</p>
-                                                        </a>
-                                                    </div>
-                                                    <!-- Kamata Section -->
-                                                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                                            <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/塚越吾郎.jpg" class="img-fluid" alt="">
-                                                                <div class="desc">
-                                                                        <div class="con">
-                                                                                <h3 style="color:#f6a74d";>塚越 吾郎</h3> 
-                                                                                    <span>
-                                                                                        <p style="color:#7ecea6">アドベンチャー教育の指導者の育成、教育現場での実践活動の他、ビジネスカウンセラーとして、経験学習サイクルをベースとした組織の人材育成や人材開発、アドベンチャー教育の学習プログラムの開発を手がけている。また、組織を本来の健康な姿に近づけるための、組織の体質改善のサポートやチームカウンセリング、教育ファシリテーション、経験学習による人材開発、メンタルヘルス、キャリアカウンセリングなどを行う。</p>
-                                                                                    </span> 
-                                                                        </div>
-                                                                </div>
-                                                            </div>
-                                                            <b>塚越 吾郎</b>
-                                                            <p>ASEAN諸国における市場調査ならびにビジネス立案をコンサルティングする。多方面に渡る独自の人脈ならびに地脈を専門性とするワークを得意とするコンサルタント。シンガポール国籍。日本とシンガポールの二拠点で活動中。</p>
-                                                        </a>
-                                                    </div>
-                                                    <!-- Hirao Section -->
-                                                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                                            <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_hirao.jpg" class="img-fluid" alt="">
-                                                                <div class="desc">
-                                                                        <div class="con">
-                                                                                <h3 style="color:#f6a74d";>Sachiko Hirao</h3> 
-                                                                                    <span>
-                                                                                        <p style="color:#7ecea6">国際線客室乗務員、大手企業総務を経て、講師となる。</p>
-                                                                                        <p style="color:#7ecea6">接客経験を活かし、コンサートホール・博物館・商業施設など、各種施設立上げにおけるサービスコンサルティングを多数実施している。（レセプショニストマニュアル作成、接客マナー研修、現場研修、フォローアップなど）</p>
-                                                                                    </span> 
-                                                                        </div>
-                                                                </div>
-                                                            </div>
-                                                            <b>平尾 佐知子</b>
-                                                            <p>事前のリサーチで現状を把握して問題点や改善課題を盛り込んだ、実践型の研修には定評がある。株式会社ザ・アール講師。立教大学卒。</p>
-                                                        </a>
-                                                    </div>
-                                                    <!-- 青柳 Section -->
-                                                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                                        <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/青柳.jpg" class="img-fluid" alt="">
-                                                            <div class="desc">
-                                                                    <div class="con">
-                                                                            <h3 style="color:#f6a74d";>青柳</h3> 
-                                                                                <span>
-                                                                                    <p style="color:#7ecea6">語学教育会社にてマネージャー職に従事した後、人材コンサルタント会社にて講師と人材育成研究を担当する。</p>
-                                                                                    <p style="color:#7ecea6">人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                                                </span> 
-                                                                    </div>
-                                                            </div>
+                                                                <a href="pic_otsuka.html">
+                                                                        <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">大塚 真理子</button>
+                                                                <p></p>
+                                                                <p>CDAの資格を保有、キャリアデザインフォーラムを立ち上げ、主に東海地区にてキャリア支援の活動を行う。株式会社ザ･アール講師。南山大学卒。</p>
+                                                            </a>
                                                         </div>
-                                                        <b>青柳</b>
-                                                        <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                    </a>
-                                                    </div>
-                                                    <!-- 後山哲三 Section -->
-                                                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                                        <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/後山哲三_new.jpg" class="img-fluid" alt="">
-                                                            <div class="desc">
-                                                                    <div class="con">
-                                                                            <h3 style="color:#f6a74d";>後山 哲三</h3> 
-                                                                                <span>
-                                                                                    <p style="color:#7ecea6">語学教育会社にてマネージャー職に従事した後、人材コンサルタント会社にて講師と人材育成研究を担当する。</p>
-                                                                                    <p style="color:#7ecea6">人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                                                </span> 
-                                                                    </div>
-                                                            </div>
-                                                        </div>
-                                                        <b>後山 哲三</b>
-                                                        <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                    </a>
-                                                    </div>
-                                                    <!-- Kato Section -->
-                                                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                                                            <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_kato.jpg" class="img-fluid" alt="">
-                                                                <div class="desc">
-                                                                        <div class="con">
-                                                                                <h3 style="color:#f6a74d";>Jyunko Kato</h3> 
-                                                                                    <span>
-                                                                                        <p style="color:#7ecea6">語学教育会社にてマネージャー職に従事した後、人材コンサルタント会社にて講師と人材育成研究を担当する。</p>
-                                                                                        <p style="color:#7ecea6">人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
-                                                                                    </span> 
-                                                                        </div>
+                                                        <!-- Kamata Section -->
+                                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                                <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/塚越吾郎.jpg" class="img-fluid" alt="">
                                                                 </div>
+                                                                <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">塚越 吾郎</button>
+                                                                <p></p>
+                                                                <p>ASEAN諸国における市場調査ならびにビジネス立案をコンサルティングする。多方面に渡る独自の人脈ならびに地脈を専門性とするワークを得意とするコンサルタント。シンガポール国籍。日本とシンガポールの二拠点で活動中。</p>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Hirao Section -->
+                                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                                <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_hirao.jpg" class="img-fluid" alt="">
+                                                                </div>
+                                                                <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">平尾 佐知子</button>
+                                                                <p></p>
+                                                                <p>事前のリサーチで現状を把握して問題点や改善課題を盛り込んだ、実践型の研修には定評がある。株式会社ザ・アール講師。立教大学卒。</p>
+                                                            </a>
+                                                        </div>
+                                                        <!-- 青柳 Section -->
+                                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                            <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/青柳.jpg" class="img-fluid" alt="">
                                                             </div>
-                                                            <b>加藤 純子</b>
+                                                                <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">青柳</button>
+                                                            <p></p>
                                                             <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
                                                         </a>
+                                                        </div>
+                                                        <!-- 後山哲三 Section -->
+                                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                            <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/後山哲三_new.jpg" class="img-fluid" alt="">
+                                                            </div>
+                                                                <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">後山 哲三</button>
+                                                            <p></p>
+                                                            <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
+                                                        </a>
+                                                        </div>
+                                                        <!-- Kato Section -->
+                                                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                                <div class="project" style="border:2px solid #fff;box-shadow: 2px 2px 4px #ccc"> <img src="images/pic_kato.jpg" class="img-fluid" alt="">
+                                                                </div>
+                                                                    <button class="myButton" style="border-radius: 12px;margin: 1px 1px;padding: 8px">加藤 純子</button>
+                                                                <p></p>
+                                                                <p>人材活用研究、研修研究、顧客満足調査、接遇試験プロジェクトの企画運営、外国人向けビジネスコミュニケーションeラーニングコンテンツの企画・出演、企業のCRMコンサルティング等に取り組んできた。</p>
+                                                            </a>
+                                            </div>
                                                     </div>
-                                                </div>
-                                        </div>
+                                    </div>
                                 </div>
-                            </div>
                         </div>
-                    </div>
+                </div>
+            </div>
             
             <!-- News Section -->
             <div id="news" class="section">
@@ -501,8 +389,8 @@
                                     </tr>
                                     <tr>
                                         <th>経営顧問</th>
-                                        <td>大橋 勇雄（<a href="http://c-faculty.chuo-u.ac.jp/~wlb/index.html" target="_blank">中央大学大学院 戦略経営研究科</a> 教授）<br />
-                                            中島 豊（<a href="http://c-faculty.chuo-u.ac.jp/~wlb/index.html" target="_blank">中央大学大学院 戦略経営研究科</a> 教授）
+                                        <td>伊藤 清文（<a href="https://panasonic.co.jp/ls/pes/company/cc_0010.html" target="_blank">元パナソニックエコシステムズ社長</a>）<br />
+                                            中島 豊（<a href="http://c-faculty.chuo-u.ac.jp/~wlb/index.html" target="_blank">中央大学大学院 戦略経営研究科</a> 教授・<a href="https://www.npo-homepage.go.jp/npoportal/detail/013012832" target="_blank">日本人材マネジメント協会会長</a>）
                                         </td>
                                     </tr>
                                     <tr>
@@ -561,6 +449,7 @@
                         <p>本社（経理関係）</p>
                 </div>
             </div>
+            
 
             <!-- Google Maps -->
 
@@ -580,7 +469,7 @@
                         <div class="col-md-4 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                             <h2 class="text-center" style="color:#28b870";>U-NO ACTIVE<br /><br>
                                 <p style="color:#0f0f0f";>by</p>
-                                <span><a href="https://www.linkedin.com/public-profile/in/dorjzodovsuren-batjargal-1896b9119?challengeId=AQGa3EPOLdIQHwAAAXcfCAw1GouLRplhUvGx4F1LhDcOvE8rEhbNYnyXRfAMxB498W0d1A0mz9UwoA88K5bHdw-iMdQUKXhR9Q&submissionId=1bf75880-40e5-5b16-a4de-5b5e9f4e7c68">iBDZS</a>
+                                <span><a href="http://dorjzodovsuren.com/" target="_blanket">iBDZS</a>
                                 </span>
                             </h2> 
                         </div>
@@ -588,8 +477,9 @@
                             <ul class="social-network">
                                 <li><a href="#"><i class="ti-facebook font-14px black-icon"></i></a></li>
                                 <li><a href="#"><i class="ti-twitter-alt font-14px black-icon"></i></a></li>
-                                <li><a href="#"><i class="ti-instagram font-14px black-icon"></i></a></li>
-                                <li><a href="#"><i class="ti-linkedin font-14px black-icon"></i></a></li>
+                                <li><a href="#"><i class="ti-blg-alt font-14px black-icon"></i></a></li>
+                                <!-- <li><a href="#"><i class="ti-instagram font-14px black-icon"></i></a></li>
+                                <li><a href="#"><i class="ti-linkedin font-14px black-icon"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
